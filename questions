@@ -1,0 +1,62 @@
+Arrays
+Find Missing Number in an Array:
+Given an array of consecutive integers with one number missing, write a function to find the missing number.
+
+Array Chunking:
+Write a function that splits an array into chunks of a specified size and returns a new array containing these chunks.
+
+Rotate Array:
+Implement a function to rotate an array to the right by k steps, where k is a non-negative integer.
+
+Find Duplicates in an Array:
+Given an array of integers, write a function to find all the duplicate elements and return them in an array.
+
+Subarray with Given Sum:
+Given an unsorted array of non-negative integers, find a subarray that adds up to a given sum.
+
+Merge Two Sorted Arrays:
+Write a function to merge two sorted arrays into a single sorted array.
+
+Longest Consecutive Sequence:
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+Find Pair with Given Difference:
+Given an array of integers, write a function to find a pair of elements that have a specified difference.
+
+Move Zeroes to End:
+Write a function to move all zeroes in an array to the end while maintaining the relative order of the non-zero elements.
+
+Find Intersection of Two Arrays:
+Given two arrays, write a function to return an array of elements that appear in both arrays.
+
+Objects
+Deep Clone an Object:
+Write a function to create a deep clone of a given object.
+
+Flatten Nested Object:
+Given a deeply nested object, write a function to flatten it into a single-level object.
+
+Convert Object to Query String:
+Write a function to convert a JavaScript object into a URL query string.
+
+Merge Two Objects:
+Write a function that merges two objects, where the second object overrides properties in the first object if they exist.
+
+Group Objects by Property:
+Given an array of objects, write a function to group them by a specific property.
+
+Check for Cyclic References in Object:
+Write a function that checks whether an object contains cyclic references.
+
+Count Property Occurrences in Array of Objects:
+Given an array of objects, write a function to count the occurrences of a specific property value.
+
+Object Transformation:
+Write a function that transforms an object by applying a specific function to its values.
+
+Sets and Maps
+Unique Elements in Array:
+Write a function that returns an array of unique elements from an array using a Set.
+
+Find First Non-Repeating Character:
+Given a string, write a function that finds the first non-repeating character using a Map for character counting.
