@@ -41,7 +41,6 @@ class LinkedList{
             lead.next=nextNode;
         }
     }
-
     insertNode(index,data){
         if (index < 0 || index > this.size) {
             console.log("Index out of bounds");
@@ -71,13 +70,11 @@ class LinkedList{
         }
         this.size += 1;
     }
-
     reverseNode(){
 
         let prev=null;
         let next;
         let current=this.head;
-        this.tail=current;
         while(current !== null){
             next = current.next;
             current.next=prev;
@@ -85,7 +82,6 @@ class LinkedList{
             current=next;
         }
         this.head=prev;
-
     }
 
 }

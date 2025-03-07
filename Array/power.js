@@ -21,3 +21,20 @@ function power(x, y) {
 console.log(power(2, 3));  // Output: 8 (2^3)
 console.log(power(2, -3)); // Output: 0.125 (2^(-3))
 console.log(power(5, 0));  // Output: 1 (5^0)
+/**************************************************************************************** */
+function power(x, y) {
+    if (y === 0) {
+        return 1; // Base case: Any number raised to the power of 0 is 1
+    }
+    
+    if (y < 0) {
+        return 1 / power(x, -y); // Handle negative exponents by calculating the reciprocal
+    }
+    
+    return x * power(x, y - 1); // Recursive case: Multiply x with the result of power(x, y - 1)
+}
+
+// Example usage:
+console.log(power(2, 3));  // Output: 8 (2^3)
+console.log(power(2, -3)); // Output: 0.125 (2^(-3))
+console.log(power(5, 0));  // Output: 1 (5^0)
